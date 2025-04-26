@@ -1,28 +1,41 @@
-## Experiment No: 1d – Conditional Statements- finding the smallest amoung three Integer numbers
+## Experiment No: 1d – Conditional Statements- check whether the given number is Even number and it is lesser than or equal to 30 or not using nested if..else.
 
 ## AIM  
-To Write a Python program to find the smallest among three Integer  Numbers
+To Write a Python program to check whether the given number is Even number or not using nested if else.
 ## ALGORITHM  
-1. Begin the program.  
-2. Take a integer input from the user
-3. Read three integers a, b, and c.
-4. Compare a, b, and c.
-5. Find the smallest using conditions:
-If a < b and a < c, smallest is a.
-Else if b < c, smallest is b.
-Else, smallest is c.
-6. Display the smallest number.
-7. Terminate the program.
+Algorithm to check if a number is Even and ≤ 30:
+
+1. Start
+
+2. Input an integer a.
+
+3. Check if a is divisible by 2:
+
+If yes, print "a is an Even number".
+
+Then, check if a is greater than 30:
+
+If yes, print "a is greater than 30".
+
+Else, print "a is lesser than or equal to 30".
+
+4. If not divisible by 2, print "a is NOT an Even number".
+
+5. End
 
 ## PROGRAM
 ```python
 a=int(input())
-b=int(input())
-c=int(input())
-min=a if(a<b and a<c) else b if(b<a and b<c) else c
-print(f"The Smallest  of the three a= {a} b= {b} c= {c} is {min}")
+if a%2==0:
+   print(a,"is an Even number")
+   if a>=30:
+        print(a,"is greater than 30")
+   else:
+        print(a,"is lesser than or equal to 30")
+else:
+    print(a,"is NOT an Even number")
 ```
 ## OUTPUT
-![Screenshot 2025-04-26 145101](https://github.com/user-attachments/assets/9b479070-30f3-4014-bdc8-d64c68d413aa)
+![Screenshot 2025-04-26 152858](https://github.com/user-attachments/assets/e011d9d1-23fe-413e-b88c-4ce9b5d472be)
 ## RESULT
-Thus the python program of finding the smallest among three Integer  Numbers has been implemented and executed successfully.
+Thus the python program of finding the given number is Even number or not using nested if else. has been implemented and executed successfully.
