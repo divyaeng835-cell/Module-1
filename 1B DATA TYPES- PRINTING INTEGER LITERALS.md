@@ -1,27 +1,38 @@
-# Experiment No: 1B- Data Types – Printing Integer Literals
+# Experiment No: 1B- Data Types – Print one integer and one float value.
 
 ## AIM  
-To write a Python program to print the following integer literals: 123, 456, 789.
+To write a Python program to print one integer and one float value.
 
 ## ALGORITHM  
-1. Begin the program.  
-2. Initialize the integer literals `123`, `456`, and `789`.  
-3. Use the `print()` function to display the numbers `123`, `456`, and `789`.  
-4. Terminate the program.
+1. Start
+
+
+2. Input an integer and store it in variable a.
+
+
+3. Input a float number and store it in variable b.
+
+
+4. Print the value of a.
+
+
+5. Print the value of b.
+
+
+6. End
 
 ## PROGRAM
 ```python
 
-num1 = 123
-num2 = 456
-num3 = 789
-
-print(num1,num2,num3)
+a=int(input())
+b=float(input())
+print(a)
+print(b)
 
 
 ```
 ## OUTPUT
-![Screenshot 2025-04-26 141525](https://github.com/user-attachments/assets/db73c69c-60ed-4e24-bb33-69fb91d6340a)
+![Screenshot 2025-04-26 153602](https://github.com/user-attachments/assets/80a9b9de-86b0-4885-98a7-3abc8e923cf9)
 
 ## RESULT
-Thus the python program to print the following integer literals has been implemented and executed successfully
+Thus the python program to print one integer and one float value has been implemented and executed successfully
